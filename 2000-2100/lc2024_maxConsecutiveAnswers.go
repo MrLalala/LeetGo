@@ -1,12 +1,6 @@
 package main
 
 func maxConsecutiveAnswers(answerKey string, k int) int {
-	var max = func(a, b int) int {
-		if a > b {
-			return a
-		}
-		return b
-	}
 
 	var maxLen = func(want byte) int {
 		var ret int
